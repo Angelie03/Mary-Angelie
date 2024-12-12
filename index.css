@@ -1,0 +1,93 @@
+@font-face {
+    font-family: garet;
+    src: url(Garet-Book.ttf);
+}
+@font-face {
+    font-family:billing;
+    src: url(Billing\ Lottre.ttf);
+}
+@font-face {
+    font-family: ocean;
+    src: url(Oceanside\ Typewriter.ttf);
+}
+@font-face {
+    font-family: builder;
+    src: url(BUILDER.ttf);
+}
+nav{
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-top:0%;
+    padding-top: 0%;
+    font-family: stretchpro;
+    font-size: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(222, 202, 142),rgb(254, 254, 254));    
+}
+
+h3{
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 0%;
+    color: rgb(58, 37, 0);
+    font-size: 160%;
+    font-family: ocean;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: rgb(58, 37, 0);
+    font-size: 670%;
+    font-weight: lighter;
+    font-family: billing;
+}
+h5{
+    font-family: built;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(58, 37, 0);
+    font-size:100%;
+    font-family: garet;
+    font-weight: 50;
+}
+.discription h3{
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.discription p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;  
+}
+@media screen and(min-width:1024px){
+    nav{
+        font-size: 25px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    h3{
+        font-size: 25px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+   
+    p{
+        font-size: 15px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
